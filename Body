@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Waving Smiley Face</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background-color: #f0f0f0;
+    }
+
+    .smiley {
+      position: relative;
+      width: 150px;
+      height: 150px;
+      background-color: yellow;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 5px solid black;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .smiley .eye {
+      width: 20px;
+      height: 20px;
+      background-color: black;
+      border-radius: 50%;
+      position: absolute;
+    }
+
+    .smiley .eye.left {
+      left: 35px;
+      top: 45px;
+    }
+
+    .smiley .eye.right {
+      right: 35px;
+      top: 45px;
+    }
+
+    .smiley .mouth {
+      position: absolute;
+      bottom: 30px;
+      width: 70px;
+      height: 40px;
+      border-bottom: 5px solid black;
+      border-radius: 35px 35px 0 0;
+    }
+
+    .smiley .hand {
+      position: absolute;
+      width: 40px;
+      height: 40px;
+      background-color: yellow;
+      border-radius: 50%;
+      b
